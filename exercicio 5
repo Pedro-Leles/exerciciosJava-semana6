@@ -1,0 +1,21 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicios {
+	public static void main(String[]args) {
+Scanner sc = new Scanner(System.in);
+
+System.out.print("Digite o número inicial do intervalo: ");
+        int inicio = sc.nextInt();
+        System.out.print("Digite o número final do intervalo: ");
+        int fim = sc.nextInt();
+        
+        System.out.println("Números primos no intervalo:");
+        for (int i = inicio; i <= fim; i++) {
+            if (ehPrimo(i)) {
+                System.out.print(i + " ");
+            }
+        }
+
+sc.close();
+	}
+}
