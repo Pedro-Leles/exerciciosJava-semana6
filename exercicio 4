@@ -17,18 +17,6 @@ System.out.print("Digite o número de alunos na turma: ");
         double media = somaNotas / numAlunos;
         System.out.println("A média da turma é: " + media);
         
-        // Exercício 5: Números primos em um intervalo
-        System.out.print("Digite o número inicial do intervalo: ");
-        int inicio = sc.nextInt();
-        System.out.print("Digite o número final do intervalo: ");
-        int fim = sc.nextInt();
-        
-        System.out.println("Números primos no intervalo:");
-        for (int i = inicio; i <= fim; i++) {
-            if (ehPrimo(i)) {
-                System.out.print(i + " ");
-            }
-        }
 
 sc.close();
 	}
